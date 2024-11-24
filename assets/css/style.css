@@ -11,6 +11,8 @@
 .heroCOnt {
     width: 100%;
     height: 100vh;
+    
+    min-height: 633px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +38,6 @@
 
 .heroMainH {
     max-width: 800px;
-    min-height: 550px;
 }
 
 .heroMainS {
