@@ -207,8 +207,7 @@
 @media only screen and (max-width: 496px) {
     .heroMainH {
         width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+        margin: 0%;
     }
 
     .mainCalenderAndMoreCont {
