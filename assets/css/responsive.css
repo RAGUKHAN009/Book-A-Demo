@@ -1,0 +1,255 @@
+@media only screen and (max-width: 1000px) {
+    .heroCOnt {
+        height: max-content;
+    }
+
+    .heroMain {
+        height: max-content;
+        /* max-width: 678px; */
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .cart1Align {
+        overflow: hidden;
+    }
+
+    .heroMainS {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heroMainH {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+
+    .cart1 {
+        height: 510px;
+        border: none;
+        overflow: hidden;
+    }
+
+    .MainContLeftFooter {
+        display: none;
+    }
+
+    
+
+    .timeAndDateCont {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .MainContLeftPtag {
+        text-align: center;
+    }
+
+    .MainContLeft h1 {
+        text-align: center;
+    }
+
+    .cart1H,
+    .cart1S {
+        width: 100%;
+
+        border-bottom: 1px solid #1a1a1a1a;
+    }
+
+    .headerContLeft {
+        margin-bottom: 24px;
+        padding-bottom: 15px;
+        height: 67px;
+    }
+
+    .headerContLeft img {
+        height: 60px;
+        width: auto;
+
+    }
+
+    .MainContLeft {
+        margin: auto;
+        height: auto;
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .cart2Heading {
+        text-align: center;
+    }
+
+    .ContactCont1S,
+    .ContactCont2S,
+    .ContactCont3S,
+    .ContactCont4S {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .heroMainS {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .cart2S {
+        width: 90%;
+    }
+
+    .CalenderCont {
+        width: 364px;
+    }
+
+    .Cart2Align {
+        padding-left: 0;
+    }
+
+    .heroMain {
+        position: relative;
+    }
+
+    .PhoneScreenFooter {
+        display: block;
+        width: 100%;
+        padding: 0 30px;
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .PhoneScreenFooterAlign {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .PhoeAnc1 {
+        font-size: 14px;
+        color: #0069ff;
+        text-decoration: none;
+        transition: 0.4s ease all;
+    }
+
+    .PhoeAnc1:hover {
+        text-decoration: underline;
+    }
+
+    .PhoeAnc2 {
+        font-size: 14px;
+        color: #0a2540;
+        text-decoration: none;
+        transition: 0.4s ease all;
+    }
+
+    .PhoeAnc2:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .MainContLeft {
+        margin: auto;
+        height: auto;
+        width: 70%;
+        padding-bottom: 50px;
+    }
+
+    .cart {
+        min-width: none;
+        overflow: hidden;
+    }
+
+    .mainCalenderAndMoreCont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart {
+        margin-bottom: 60px;
+    }
+
+    .cart {
+        overflow-y: hidden;
+    }
+
+    .cart2 {
+        width: 50%;
+        min-width: max-content;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ContactCont1S,
+    .ContactCont2S,
+    .ContactCont3S,
+    .ContactCont4S {
+        display: block;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 496px) {
+    .heroMainH {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .mainCalenderAndMoreCont {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .heroCOnt {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .MainContLeft {
+        margin: auto;
+        height: 450px;
+        width: 70%;
+        padding-bottom: 50px;
+        overflow: scroll;
+    }
+
+    .briefDicsriptionParaAdd {
+        padding-bottom: 10px;
+    }
+
+    .dates,
+    .days {
+        padding: 0 30px;
+
+    }
+
+    .date {
+        padding: 10px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .timeZone {
+        width: 100%;
+        padding: 0 40px;
+    }
+}

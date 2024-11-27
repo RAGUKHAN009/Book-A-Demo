@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- link to font awsom  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link to font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- link to css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+
+    <title>Select a Date & Time - Calendly</title>
+</head>
+
+<body>
+
+    <div class="heroCOnt">
+        <div class="heroMain heroMainH" id="heroMain">
+            <div class="cart cart1  cart1H" id="cart1">
+                <!-- Header -->
+                <div class="cart1Align">
+                    <header class="headerContLeft">
+                        <img src="./assets/img/logo.jpg" alt="">
+                    </header>
+                    <!-- Main -->
+                    <main class="MainContLeft">
+                        <p class="MainContLeftPtag">Unique Leverage</p>
+                        <h1>Want more information about a specific vehicle?</h1>
+                        <!--  -->
+                        <div class="timeAndDateCont">
+                            <span class="timeCont"><i class="fa-regular fa-clock"></i>
+                                <p>15 min</p>
+                            </span>
+                            <span class="PhoneCont"><i class="fa-solid fa-phone"></i>
+                                <p>Phone call</p>
+                            </span>
+                        </div>
+                        <!--  -->
+                        <p class="briefDicsriptionPara">
+                            At Lovett Used Cars - We provide quality used vehicles for sale with low mileage, like
+                            sedans,
+                            SUVs for family, sports cars, pickup trucks, and more!
+                        </p>
+                        <p>
+                            <br>
+                        </p>
+                        <p class="briefDicsriptionPara">
+                            Affordable pricing + we can work with good & bad situations. Let us help!
+                        </p>
+                        <p>
+                            <br>
+                        </p>
+                        <p class="briefDicsriptionPara briefDicsriptionParaAdd">
+                            Schedule your appointment today.
+                        </p>
+                    </main>
+                    <!-- Footer -->
+                    <button class="BackNavButton">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </div>
+                <footer class="MainContLeftFooter FooterH" id="MainContLeftFooter">
+                    <div><a class="FirstAncor" href="">Cookie settings</a></div>
+                    <div><a class="secondAncor" href="">Report abuse</a></div>
+                </footer>
+                <!-- BackNav -->
+            </div>
+            <!--  -->
+            <div class="cart cart2 cart2H" id="cart2">
+                <div class="Cart2Align">
+
+                    <h1 class="cart2Heading">Select a Date & Time</h1>
+                    <!--  -->
+                    <div class="mainCalenderAndMoreCont">
+                        <div class="CalenderCont CalenderContH" id="CalenderCont">
+                            <div class="calenderAlign">
+                                <div class="mainCalender">
+                                    <!-- CALANDER -->
+                                    <div class="calendar">
+                                        <div class="header">
+                                            <button id="prev" class="prevBut">❮</button>
+                                            <h2 id="monthYear" class="monthYear"></h2>
+                                            <button id="next" class="nextBut">❯</button>
+                                        </div>
+                                        <div class="days">
+                                            <div class="day">Mon</div>
+                                            <div class="day">Tue</div>
+                                            <div class="day">Wed</div>
+                                            <div class="day">Thu</div>
+                                            <div class="day">Fri</div>
+                                            <div class="day">Sat</div>
+                                            <div class="day">Sun</div>
+                                        </div>
+                                        <div id="dates" class="dates"></div>
+                                    </div>
+                                    <!-- CALANDER -->
+                                </div>
+                                <div class="timeZone">
+                                    <h1>Time zone</h1>
+                                    <!-- Time zone -->
+                                    <select id="timezone-select">
+                                        <option value="-12:00">(GMT -12:00) Eniwetok, Kwajalein</option>
+                                        <option value="-11:00">(GMT -11:00) Midway Island, Samoa</option>
+                                        <option value="-10:00">(GMT -10:00) Hawaii</option>
+                                        <option value="-09:00">(GMT -9:00) Alaska</option>
+                                        <option value="-08:00">(GMT -8:00) Pacific Time (US & Canada)</option>
+                                        <option value="-07:00">(GMT -7:00) Mountain Time (US & Canada)</option>
+                                        <option value="-06:00">(GMT -6:00) Central Time (US & Canada), Mexico City
+                                        </option>
+                                        <option value="-05:00">(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima
+                                        </option>
+                                        <option value="-04:00">(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz
+                                        </option>
+                                        <option value="-03:00">(GMT -3:00) Brazil, Buenos Aires, Georgetown</option>
+                                        <option value="+00:00" selected="selected">(GMT) Western Europe Time, London,
+                                            Lisbon, Casablanca</option>
+                                        <option value="+01:00">(GMT +1:00) Brussels, Copenhagen, Madrid, Paris</option>
+                                        <option value="+02:00">(GMT +2:00) Kaliningrad, South Africa</option>
+                                        <option value="+03:00">(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg
+                                        </option>
+                                        <option value="+04:00">(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option>
+                                        <option value="+05:00">(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent
+                                        </option>
+                                        <option value="+06:00">(GMT +6:00) Almaty, Dhaka, Colombo</option>
+                                        <option value="+07:00">(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+                                        <option value="+08:00">(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option>
+                                        <option value="+09:00">(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk
+                                        </option>
+                                        <option value="+10:00">(GMT +10:00) Eastern Australia, Guam, Vladivostok
+                                        </option>
+                                        <option value="+11:00">(GMT +11:00) Magadan, Solomon Islands, New Caledonia
+                                        </option>
+                                        <option value="+12:00">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka
+                                        </option>
+                                    </select>
+                                    <!-- Time zone -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ContactCont ContactCont1H" id="ContactCont1">
+                            <h1>Monday, November 25</h1>
+                            <div class="ContactButtonsCont">
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="ContactCont ContactCont2H" id="ContactCont2">
+                            <h1>Tuesday, November 26</h1>
+                            <div class="ContactButtonsCont">
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="ContactCont ContactCont3H" id="ContactCont3">
+                            <h1>Wednesday, November 27</h1>
+                            <div class="ContactButtonsCont">
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="ContactCont ContactCont4H" id="ContactCont4">
+                            <h1>Thursday, November 28</h1>
+                            <div class="ContactButtonsCont">
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                                <button class="ContactTimeButt">9:00am</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <footer class="PhoneScreenFooter">
+                <div class="PhoneScreenFooterAlign">
+                    <div><a class="PhoeAnc1" href="">Cookie settings</a></div>
+                    <div><a class="PhoeAnc2" href="">Report abuse</a></div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
